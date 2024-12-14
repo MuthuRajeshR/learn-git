@@ -20,6 +20,7 @@ After git clone - you can able to see a folder in your machine with your repo na
 
 
 2.git add ."filename" -[helps to stage your files]
+  git add . -[without filename will help to stage all your modified files in local]
 
 3.git commit -m "commit-message" -[helps to commit your staged files.]
 
