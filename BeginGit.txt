@@ -3,7 +3,7 @@ GitHub - Is a wrapper written over git.
 
 Commands for Beginers
 
-git clone "replace your repository URL" - This will help to clone your Repo in your machine.
+1.git clone "replace your repository URL" - This will help to clone your Repo in your machine.
 
 If the above command doen't works , then there may be some missing things to setup.
 
@@ -19,9 +19,11 @@ After git clone - you can able to see a folder in your machine with your repo na
 [A hidden file will be there in your folder called .git -> this file help in making a connection between your local repo and github repo.]
 
 
-git add ."filename" -[helps to stage your files]
+2.git add ."filename" -[helps to stage your files]
 
-git commit -m "commit-message" -[helps to commit your staged files.]
+3.git commit -m "commit-message" -[helps to commit your staged files.]
 
-git pull -[helps in pulling the lastest file from repo]
+    -While commiting each time , a commit hash will be generated.
+
+4.git pull -[helps in pulling the lastest file from repo]
 
