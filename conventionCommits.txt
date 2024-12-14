@@ -1,0 +1,29 @@
+This is related to adding a convetional commit message : [GIVEN SOME OF THE IMPORTANT DETAILS]
+
+    This commit message consists of four PARTS.
+     
+    TYPES:
+        For Example : 
+            "Keyword" : "Commit description"
+
+        1. feat : -[Commits, that adds or remove a new feature] 
+        2. fix : - [Commits, that fixes a bug]
+        3. refactor : - [Commits, that rewrite/restructure your code]
+        4. chore : - [Miscellaneous commits e.g. modifying .gitignore]
+
+    SCOPE: (This part is optional)
+        The scope provides additional contextual information. e.g. feat(api)
+
+    BREAKING CHANGES INDICATOR:
+        Breaking changes should be indicated by an ! before the : in the subject line e.g. feat(api)!: Description
+
+    DESCRIPTION: (This is mandatory part of the format)
+            The description contains a concise description of the change. e.g. feat(api)! : remove ticket list endpoint
+
+
+    Above details refered from / Refer more details for: https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+
+
+
+
+            
