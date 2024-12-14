@@ -1,9 +1,15 @@
 Working with Branching.
 
- 1.git branch -[command helps to find on which branch you are in and the list of branches]
+ 1.git branch -[command helps to find on which branch you are in and the list of branches that you have used or created]
 
  2.git checkout -b "new-branch-name" - [helps to create a new branch with the mentioned branch name and switching to that branch]
 
  3.git checkout "existing-branch-name" - [helps to switch to the existing branch name]
 
  4.git branch -D "branch name" - [deletes the mentioned branch name]
+
+ 5.git branch -a -[lists all the branches]
+
+ 6.git branch -M -[Rename the branch]
+
+ 7.git log -[helps to see all the commits and related details]
