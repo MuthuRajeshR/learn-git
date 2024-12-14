@@ -1,0 +1,34 @@
+What is a Merge Conflict?
+    A merge conflict happens when two people make changes to the same part of a file in a Git repository and Git cannot automatically figure out which change to keep. It's like two people trying to edit the same sentence in a document at the same time but making different edits.
+
+How to Resolve a Merge Conflict?
+    1.Identify the Conflict: Open the file with the conflict. Git highlights the areas of disagreement.
+    2.Decide on the Changes: Choose which part of the conflicting text to keep:
+    3.Keep one branch's changes.
+    4.Combine changes from both branches.
+    5.Rewrite the section entirely if needed.
+    6.Edit the File: Remove the conflict markers (<<<<<<<, =======, and >>>>>>>) and make the text as you   want it to be.
+    7.Mark the Conflict as Resolved: Once you've fixed the file, tell Git the conflict is resolved by running:
+
+    git add <filename>
+    git commit
+
+
+Example:
+If two branches edited the same line in a file:
+
+Your branch:
+    Hello, this is a message from Alice.
+
+Other branch:
+    Hello, this is a message from Bob.
+
+To resolve, you might combine the changes or keep Your branch change or Other branch change.
+
+Incase of combining : Hello, this is a message from Alice and Bob.
+
+In case of keeping your branch change: Hello, this is a message from Alice.
+
+In case of keeping other branch's change over your's : Hello, this is a message from Bob.
+
+After editing, save the file, add it to staging, and commit to complete the merge
